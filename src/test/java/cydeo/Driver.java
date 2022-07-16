@@ -83,7 +83,7 @@ public class Driver {
                     driver = new InternetExplorerDriver();
                     break;
 
-                case "edge":
+                case "edge"   :
                     if (System.getProperty("os.name").toLowerCase().contains("mac")) {
                         throw new WebDriverException("Your operating system does not support the requested browser");
                     }
